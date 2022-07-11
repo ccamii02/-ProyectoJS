@@ -1,0 +1,76 @@
+body {
+  background-image: url(../imagenes/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(2px); 
+}
+
+header{
+  text-align: center; 
+}
+header h1{
+  color: white;
+  text-shadow: 0.1em 0.1em black; 
+}
+.row{
+  background-color: white;
+  border: solid white;
+  padding: 0px;
+  margin-top: 20px;
+  
+}
+#contadorCarrito{
+  color: black;
+}
+h3 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  text-shadow: 0.1em 0.1em black;
+}
+
+.contenedor-h3{
+  border: 2px solid white;
+  margin: 20px; 
+}
+
+.componentes{
+  display: grid;
+  padding-top: 100px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 35px;
+  row-gap: 45px; 
+}
+.imagen-componentes{
+  border: 2px solid white;
+  background-color: white;
+  margin: 10px;
+  padding: 10px; 
+}
+.agregar{
+  border-radius: 20px ;
+
+}
+.boton-carro{
+  border: none;
+  background: none;
+}
+
+hr{
+  margin: 0; 
+}
+
+span{
+  color: white; 
+}
+
+.contenedor-del-carrito{
+  margin-top: 30px;
+  
+}
+
+#offcanvasScrolling{
+  border-radius: 20px;
+  
+}

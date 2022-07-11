@@ -1,0 +1,9 @@
+
+let listaComponentes = [
+    {id: 1,cantidad:1, producto:'placa de video RTX2060', precio:80000,  img: './imagenes/placaRtx2060.jpg'},
+    {id: 2,cantidad:1, producto:'placa de video RTX3080', precio:300000, img: './imagenes/placaRTX3080.jpg' },
+    {id: 3,cantidad:1, producto:'placa de video GTX1050ti', precio:70000,img: './imagenes/placaGtx1050ti.jpg'},
+    {id: 4,cantidad:1, producto:'procesador ryzen 3-3200', precio:80000, img: './imagenes/ryzen3-3200.jpg'},
+    {id: 5,cantidad:1, producto:'procesador ryzen 5-3600', precio:40000, img: './imagenes/ryzen5-3600.webp'},
+    {id: 6,cantidad:1, producto:'procesador ryzen 5-5600', precio:35000, img: './imagenes/ryzen5-5600.png'},
+]
