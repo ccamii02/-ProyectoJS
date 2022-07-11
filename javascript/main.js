@@ -149,12 +149,15 @@ realizarcompra.addEventListener('click', () =>{
 
 //fetch
 
-fetch('/data.json')
+fetch("/data.json")
     .then(response => response.json())
     .then(data => {
         console.log(data);
     })
-    .catch(error => console.error(error))
+    .catch(error => console.log(error))
+
+
+
 
 
 
