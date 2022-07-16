@@ -30,9 +30,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link active" href="#">Componentes</a>
-                        <a class="nav-link active" href="#">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link active" href="./index.html">Componentes</a>
                         <button id="contador-carrito" class="boton-carro" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img id="img-carrito" src="./imagenes/carrito.png" style="height:40px;width:40px;"><span id="contadorCarrito"></span></button>
                         </a>
                     </div>
@@ -41,18 +40,17 @@
         </nav>
         
             <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Carrito de Compras</h5>
-                    <button id="vaciar-carrito" class="agregar">Vaciar Carrito</button>
+                <div class="offcanvas-header" id="contenedor-h5">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Mi Carrito</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                
-                <div>
-                    <p id="precioTotal">Precio Total: $</p>
+                <div class="boton-vaciarC">
+                    <button id="vaciar-carrito" class="agregar">Vaciar Carrito</button>
                     <button id="realizar-compra" class="agregar">Realizar Compra</button>
                 </div>
-
+                
                 <div class="contenedor-del-carrito">
+                    <p id="precioTotal">Precio Total: $</p>
                     <p>Productos:</p>
                 </div>
                 

@@ -33,6 +33,13 @@ h3 {
   border: 2px solid white;
   margin: 20px; 
 }
+.offcanvas-header{
+  border-bottom: 2px solid rgb(224, 206, 206);
+
+}
+.boton-vaciarC{
+  margin-top: 10PX;
+}
 
 .componentes{
   display: grid;
@@ -72,5 +79,6 @@ span{
 
 #offcanvasScrolling{
   border-radius: 20px;
+  height: 950px;
   
 }
